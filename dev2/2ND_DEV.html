@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
 	<title>uqtr_loisirs</title>
-    <meta name="authors" content="Jeremie Cyrille / Josué Lubaki / Niang Malick / Sarr Badara / Raissa Mbikayi"/>
+    <meta value="authors" content="Jeremie Cyrille / Josué Lubaki / Niang Malick / Sarr Badara / Raissa Mbikayi"/>
     <link rel="stylesheet" href="style_2ND_dev.css" type="text/css"/>
     <script src="jquery-3.4.1.js"></script>
 	<script src="anim.js"></script>
@@ -19,7 +19,7 @@
 		<section id="nav">
 			<ul>
 				<li><a href=#> Accueil </a></li>
-				<li><a href=#> S'inscrire </a></li>
+				<li id="test"><a href=#> S'inscrire </a></li>
 				<li><a href=#> carte </a></li>
 			</ul>
 		</section>
@@ -96,6 +96,24 @@
 			</table>
 
 		</section>
+	</div>
+	<div id="formulaire">
+		<p>inscriver vous</p>
+		<p>Nom  <input type="text" size="50"value=""> </p>
+		<p>Prenom  <input type="text" size="50"value=""> </p>
+		<p>Date de naissance  <input type="date" value="date" > </p>
+		<p>Sexe <input type="radio" value="homme"name="homme">Homme <input type="radio" value="femme"name="femme">Femme </p>
+		<p>Activite  <input list="activite" name="activite">
+			<datalist id="activite">
+			<option value="Natation">
+			<option value="Randonnée">
+			<option value="Badminton">
+			<option value="Echec">
+			<option value="Vélo">
+			<option value="Kayak">
+			</datalist></p>
+		<p>Motivation  <input type="text" size="50"> </p>
+		<p><input type="submit" value="valider"> <input type="reset" value="reboot"> </p>
 	</div>
 
 </body>

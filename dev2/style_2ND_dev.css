@@ -69,6 +69,7 @@ header p{
 	padding: 10px;
 	background-color: white;
 	font-size: 18px;
+	display: none;
 	
 }
 /* Les Hovers du menu principal*/

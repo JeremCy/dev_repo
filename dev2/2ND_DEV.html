@@ -6,7 +6,9 @@
 	<title>uqtr_loisirs</title>
     <meta value="authors" content="Jeremie Cyrille / Josué Lubaki / Niang Malick / Sarr Badara / Raissa Mbikayi"/>
     <link rel="stylesheet" href="style_2ND_dev.css" type="text/css"/>
-    <script src="jquery-3.4.1.js"></script>
+	<script src="jquery-3.4.1.js"></script>
+	<script async defer
+	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBv0C3UMlUhyLlkv97wu6ZyvlbQM5SUpWI&callback=initMap"></script>
 	<script src="anim.js"></script>
 </head>
 
@@ -20,7 +22,7 @@
 			<ul>
 				<li><a href=#> Accueil </a></li>
 				<li id="test"><a href=#> S'inscrire </a></li>
-				<li><a href=#> carte </a></li>
+				<li id="mp"><a href=#> carte </a></li>
 			</ul>
 		</section>
 
@@ -116,7 +118,7 @@
 		<p><input type="submit" value="valider"> <input type="reset" value="reboot"> </p>
 	</div>
 	<div id="map">
-		
+			
 	</div>
 </body>
 </html>

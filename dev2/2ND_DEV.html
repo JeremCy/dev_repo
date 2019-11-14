@@ -41,28 +41,31 @@
 				qui vont feront découvrir des pans inédit de leurs loisirs préférés. Qu'attendez-vous...? Rejoignez-nous!</p>
 			
 			<h2>Liste des activités disponibles</h2>
-			<table id="table"></table> 
-
+			<table id="table"></table>
+	
 		</section>
+		<div id="formulaire">
+			<form>
+			<p>inscrivez vous</p>
+			<p>Nom  <input type="text" size="50"value=""> </p>
+			<p>Prenom  <input type="text" size="50"value=""> </p>
+			<p>Date de naissance  <input type="date" value="date" > </p>
+			<p>Sexe <input type="radio" value="homme"name="homme">Homme <input type="radio" value="femme"name="femme">Femme </p>
+			<p>Activite  <input list="activite" name="activite">
+				<datalist id="activite">
+				<option value="Natation">
+				<option value="Randonnée">
+				<option value="Badminton">
+				<option value="Echec">
+				<option value="Vélo">
+				<option value="Kayak">
+				</datalist></p>
+			<p>Motivation  <input type="text" size="50"> </p>
+			<p><input type="submit" value="valider"> <input type="reset" value="reboot"> </p>
+			</form>
+		</div>
+		<div id="map"></div>
 	</div>
-	<div id="formulaire">
-		<p>inscriver vous</p>
-		<p>Nom  <input type="text" size="50"value=""> </p>
-		<p>Prenom  <input type="text" size="50"value=""> </p>
-		<p>Date de naissance  <input type="date" value="date" > </p>
-		<p>Sexe <input type="radio" value="homme"name="homme">Homme <input type="radio" value="femme"name="femme">Femme </p>
-		<p>Activite  <input list="activite" name="activite">
-			<datalist id="activite">
-			<option value="Natation">
-			<option value="Randonnée">
-			<option value="Badminton">
-			<option value="Echec">
-			<option value="Vélo">
-			<option value="Kayak">
-			</datalist></p>
-		<p>Motivation  <input type="text" size="50"> </p>
-		<p><input type="submit" value="valider"> <input type="reset" value="reboot"> </p>
-	</div>
-	<div id="map"></div>
+	
 </body>
 </html>

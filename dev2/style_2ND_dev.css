@@ -78,15 +78,6 @@ header p{
 	color: rgb(7, 92, 7);
 }
 
-/* Lignes du Tableau */
-td{
-	border: 1px solid black;
-}
-th{
-	border-top: 1px solid black;
-	background-color: rgb(177, 174, 174);
-	color: white;
-}
 #formulaire{
 	position: relative;	
 	border:1px solid black ;
@@ -122,7 +113,8 @@ td{border: 1px solid black;}
 th{
 	border-top: 1px solid black;
 	background-color: rgb(177, 174, 174);
-	color: white;}
+	color: white;
+}
 #formulaire{
 	position: relative;	
 	border:1px solid black ;
@@ -133,7 +125,8 @@ th{
 	padding: 10px;
 	background-color: white;
 	font-size: 18px;
-	display: none;}
+	display: none;
+}
 #map {
 	overflow:hidden;
 	position: relative;	
@@ -146,19 +139,23 @@ th{
 	background-color: white;
 	font-size: 18px;
 	display: none;
-	height: 500px;  /* The height is 400 pixels */ }
-   td,th {
+	height: 500px;  /* The height is 400 pixels */ 
+}
+td,th {
 	border: 1px solid #ddd;
-	padding: 8px;}
-  tr {background-color: #ddd;height: 50px;}
+	padding: 8px;
+}
+tr {background-color: #ddd;height: 50px;}
   
- th {
+th {
 	padding-top: 12px;
 	padding-bottom: 12px;
 	text-align: left;
 	background-color: #4CAF50;
 	color: white;}
 	
-  #table {
+#table {
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-	border-collapse: collapse;width: 100%;}
+	border-collapse: collapse;
+}
+table{width: 100%;}

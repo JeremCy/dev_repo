@@ -1,10 +1,6 @@
 $(document).ready(function(){
   $(".page #nav ul li:first-child").click(function(){
       $("#contenu").slideToggle(1000);
-<<<<<<< HEAD
-=======
-      //$("#contenu").slideUp("slow");
->>>>>>> js_star
       $("#formulaire").hide();
       $("#map").hide();
       $(this).css("background-color", "white");
@@ -45,7 +41,6 @@ $(document).ready(function(){
       document.getElementById('map'), {zoom: 15, center: uluru});
     });
   });      
-<<<<<<< HEAD
   var data=[{"order":1,"activity":"Natation","manager":"Michel Provencher","numofsub":7},
             {"order":2,"activity":"Badminton","manager":"Daniel Lefevbre","numofsub":15},
             {"order":3,"activity":"Randonnée","manager":"Catherine Pelletier","numofsub":10},
@@ -59,19 +54,6 @@ $(document).ready(function(){
           
         for (var i = 0; i < data.length; i++) { 
             for (var k in data[i]) { 
-=======
-    var list =[{"order":1,"activity":"Natation","manager":"Michel Provencher","numofsub":7},
-    {"order":2,"activity":"Badminton","manager":"Daniel Lefevbre","numofsub":15},
-    {"order":3,"activity":"Randonnée","manager":"Catherine Pelletier","numofsub":10},
-    {"order":4,"activity":"Kayak","manager":"Josée Coté","numofsub":14},
-    {"order":5,"activity":"Velo","manager":"Jean-Yves Surroy","numofsub":22},
-    {"order":6,"activity":"Echecs","manager":"Emilie Simard","numofsub":11}]; 
-    $("table").ready(function GFG_FUN() { 
-        var cols = []; 
-          
-        for (var i = 0; i < list.length; i++) { 
-            for (var k in list[i]) { 
->>>>>>> js_star
                 if (cols.indexOf(k) === -1) { 
                       
                     // Push all keys to the array 
@@ -97,11 +79,7 @@ $(document).ready(function(){
         } 
           
         // Adding the data to the table 
-<<<<<<< HEAD
         for (var i = 0; i < data.length; i++) { 
-=======
-        for (var i = 0; i < list.length; i++) { 
->>>>>>> js_star
               
             // Create a new row 
             trow = table.insertRow(-1); 
@@ -109,24 +87,16 @@ $(document).ready(function(){
                 var cell = trow.insertCell(-1); 
                   
                 // Inserting the cell at particular place 
-<<<<<<< HEAD
                 cell.innerHTML = data[i][cols[j]]; 
-=======
-                cell.innerHTML = list[i][cols[j]]; 
->>>>>>> js_star
             } 
         } 
           
         // Add the newely created table containing json data 
         var el = document.getElementById("table"); 
         el.innerHTML = ""; 
-<<<<<<< HEAD
         el.appendChild(table); 
       });
                   
     
       
-=======
-        el.appendChild(table); });          
->>>>>>> js_star
 });     

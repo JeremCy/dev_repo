@@ -1,3 +1,4 @@
+<?php
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -17,7 +18,8 @@
 		<image alt="logo UQTR" src="https://www.uqtr.ca/images/logos/logo-uqtr.png"></image>
 		<a><image id="us" alt="us flag" src="https://cdn1.iconfinder.com/data/icons/rounded-flat-country-flag-collection-1/2000/us-01.png"></image>
 		<image id="fr" alt="fr flag" src="https://icon2.cleanpng.com/20180524/rrh/kisspng-flag-of-france-flag-of-france-french-seat-arona-fr-national-dish-5b072005a8c087.3538517615271936056912.jpg"></image></a>
-		<p>Loisirs pour les étudiants!</p>
+        <p>Loisirs pour les étudiants!</p>
+        
 	</header>
 	<div class="page">
 		<section id="nav">
@@ -71,3 +73,5 @@
 	
 </body>
 </html>
+
+?> 

@@ -5,15 +5,11 @@ header{
 	background-color: white;
 	box-shadow: 0px 0px 15px rgb(4, 168, 4);
 }
-{
-	float:right;
-	width: 10px;
-}
 header p{
 	float:right;
 	font-family: 'Yatra One', cursive;
 	font-size: 30px;
-	font-weight: bold;	
+	font-weight: bold;
 }
 .page{
 	width: 100%;
@@ -73,6 +69,7 @@ header p{
 	padding: 10px;
 	background-color: white;
 	font-size: 18px;
+	
 }
 /* Les Hovers du menu principal*/
 #nav ul li:hover{	
@@ -163,3 +160,63 @@ th {
 	border-collapse: collapse;
 }
 table{width: 100%;}
+
+#notRemove{
+	display: none
+}
+.key{
+   
+    width: 350px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: large;
+    border: 2px solid rgb(7, 92, 7);
+    padding-left: 15px;
+    background-image: url(search.png);
+    background-size: 7%;
+    background-repeat: no-repeat;
+    background-position: 98% 50%;
+    outline: none;
+	margin-bottom: 0px;
+}
+.loading{
+    background-image: url(loading.gif) !important;
+}
+.search ul{
+    display: none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 1px solid #4CAF50;
+    border-top:none;
+    list-style-type: none;
+    padding: 0px;
+    margin-top: -2px;
+    width: 97.5%;
+	right: 0px;
+	margin-bottom: 5%;
+	background-color: #ddd;
+}
+.search ul li{
+    border-bottom: 1px solid #4CAF50;
+    padding: 5px;
+    cursor: pointer;
+    line-height: 30px;
+	
+	 
+}
+.search ul li:hover{
+   background-color: #4CAF50;
+   color: black;
+}
+.search ul li:last-child{
+    border-bottom: none;
+}
+.search{
+	margin-left: 63%;
+	
+}
+#contenu h2{
+	float: left;
+	clear: right;
+	margin-top: 0px;
+}
